@@ -1,7 +1,5 @@
 # Task_1_ThynkTech
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A Node.js project containerized with Docker. This repository demonstrates building and running a simple Node.js application in a Docker environment.
 
 ---
@@ -12,9 +10,7 @@ A Node.js project containerized with Docker. This repository demonstrates buildi
 - [Features](#features)  
 - [Installation](#installation)  
 - [Docker](#docker)  
-- [Usage](#usage)  
-- [Contributing](#contributing)  
-- [License](#license)  
+- [Usage](#usage)   
 
 ---
 
@@ -46,6 +42,8 @@ Install dependencies:
 npm install
 ```
 
+## Docker
+
 Build Docker Image:
 ```bash
 docker build -t task1-thynktech .
@@ -54,8 +52,8 @@ Run Docker Container:
 ```bash
 docker run -p 3000:3000 task1-thynktech
 ```
-
 Access the app at: http://localhost:3000
+
 ## ⚡ Usage
 Run Locally
 ```bash
