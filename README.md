@@ -1,4 +1,4 @@
-# Task_1_ThynkTech
+# Task 1 
 
 A Node.js project containerized with Docker. This repository demonstrates building and running a simple Node.js application in a Docker environment.
 
